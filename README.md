@@ -1,6 +1,9 @@
 # API REST de Productos
 
 API REST construida con Node.js, Express y TypeScript para gestionar un catálogo de productos. Incluye documentación automática de la API mediante Swagger (OpenAPI).
+Para visualizar productos:
+
+[http://localhost:3000/api/produc](http://localhost:3000/api/products)
 
 ## Requisitos previos
 
@@ -12,8 +15,8 @@ API REST construida con Node.js, Express y TypeScript para gestionar un catálog
 1. Clona el repositorio y entra a la carpeta del proyecto:
 
 ```bash
-git clone <url-del-repositorio>
-cd api-rest
+git clone https://github.com/EbalJuarez/Arquitectura-De-Sistemas/tree/hw-02
+cd hw-02
 ```
 
 2. Instala las dependencias:

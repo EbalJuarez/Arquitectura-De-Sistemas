@@ -1,9 +1,6 @@
 # API REST de Productos
 
 API REST construida con Node.js, Express y TypeScript para gestionar un catálogo de productos. Incluye documentación automática de la API mediante Swagger (OpenAPI).
-Para visualizar productos:
-
-[http://localhost:3000/api/produc](http://localhost:3000/api/products)
 
 ## Requisitos previos
 
@@ -33,7 +30,7 @@ Levanta el servidor con recarga automática al detectar cambios:
 npm run dev
 ```
 
-El servidor quedará corriendo en `http://localhost:3000`.
+El servidor quedará corriendo en `http://localhost:3000`/`[http://localhost:3000/api/produc](http://localhost:3000/api/products)`
 
 ## Compilar para producción
 

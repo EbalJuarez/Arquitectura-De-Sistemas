@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laptop HP Pavilion 15",
+    "descripcion": "Laptop con procesador Intel Core i5, 8GB RAM, 512GB SSD",
+    "precio": 899.99,
+    "categoria": "Electrónica",
+    "stock": 15,
+    "imagen": "https://example.com/images/laptop-hp.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Inalámbrico Logitech M170",
+    "descripcion": "Mouse óptico inalámbrico con receptor USB",
+    "precio": 14.99,
+    "categoria": "Accesorios",
+    "stock": 50,
+    "imagen": "https://example.com/images/mouse-logitech.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Mecánico Redragon K552",
+    "descripcion": "Teclado mecánico RGB con switches azules",
+    "precio": 39.99,
+    "categoria": "Accesorios",
+    "stock": 30,
+    "imagen": "https://example.com/images/teclado-redragon.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Monitor Samsung 24\" Full HD",
+    "descripcion": "Monitor LED de 24 pulgadas, resolución 1920x1080",
+    "precio": 149.99,
+    "categoria": "Electrónica",
+    "stock": 20,
+    "imagen": "https://example.com/images/monitor-samsung.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Audífonos Sony WH-CH510",
+    "descripcion": "Audífonos inalámbricos con Bluetooth y cancelación de ruido",
+    "precio": 49.99,
+    "categoria": "Audio",
+    "stock": 25,
+    "imagen": "https://example.com/images/audifonos-sony.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Silla Gamer Cougar Armor",
+    "descripcion": "Silla ergonómica reclinable con soporte lumbar",
+    "precio": 199.99,
+    "categoria": "Muebles",
+    "stock": 10,
+    "imagen": "https://example.com/images/silla-cougar.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Disco Duro Externo Seagate 1TB",
+    "descripcion": "Disco duro portátil USB 3.0, 1TB de capacidad",
+    "precio": 54.99,
+    "categoria": "Almacenamiento",
+    "stock": 40,
+    "imagen": "https://example.com/images/disco-seagate.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Webcam Logitech C920",
+    "descripcion": "Cámara web Full HD 1080p con micrófono integrado",
+    "precio": 69.99,
+    "categoria": "Accesorios",
+    "stock": 18,
+    "imagen": "https://example.com/images/webcam-logitech.jpg"
+  }
+]

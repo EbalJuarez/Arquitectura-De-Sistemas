@@ -1,6 +1,9 @@
 # API REST de Productos
 
 API REST construida con Node.js, Express y TypeScript para gestionar un catálogo de productos.
+Para visualizar la API:
+
+http://localhost:3000/api/products
 
 ## Requisitos previos
 

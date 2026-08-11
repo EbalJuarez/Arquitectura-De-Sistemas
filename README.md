@@ -103,15 +103,4 @@ La API expone los siguientes endpoints principales bajo la dirección base `http
 
 ---
 
-### Ejemplos de prueba desde la terminal (cURL)
 
-```bash
-# Consultar todos los libros
-curl -X GET http://localhost:3000/books
-
-# Consultar un libro específico
-curl -X GET http://localhost:3000/books/1
-
-# Verificar la salud de la API
-curl -X GET http://localhost:3000/health/fitness
-```

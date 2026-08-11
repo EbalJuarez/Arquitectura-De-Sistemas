@@ -1,0 +1,903 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cien Años de Soledad",
+    "autor": "Gabriel García Márquez",
+    "descripcion": "Novela que narra la historia de la familia Buendía a lo largo de siete generaciones en el pueblo ficticio de Macondo",
+    "categoria": "Realismo Mágico",
+    "imagen": "https://example.com/images/cien-anios-soledad.jpg",
+    "prestado": false
+  },
+  {
+    "id": 2,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "descripcion": "Distopía sobre un régimen totalitario que controla cada aspecto de la vida de sus ciudadanos mediante la vigilancia constante",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/1984-orwell.jpg",
+    "prestado": true
+  },
+  {
+    "id": 3,
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "descripcion": "Fábula poética sobre un pequeño príncipe que viaja de planeta en planeta descubriendo verdades sobre la vida y el amor",
+    "categoria": "Literatura Infantil",
+    "imagen": "https://example.com/images/el-principito.jpg",
+    "prestado": false
+  },
+  {
+    "id": 4,
+    "titulo": "Crimen y Castigo",
+    "autor": "Fiódor Dostoyevski",
+    "descripcion": "Un estudiante pobre comete un asesinato y enfrenta las consecuencias psicológicas y morales de su acto",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/crimen-castigo.jpg",
+    "prestado": false
+  },
+  {
+    "id": 5,
+    "titulo": "Sapiens: De Animales a Dioses",
+    "autor": "Yuval Noah Harari",
+    "descripcion": "Recorrido por la historia de la humanidad desde la Edad de Piedra hasta la actualidad, explorando cómo el Homo sapiens llegó a dominar el planeta",
+    "categoria": "Ensayo",
+    "imagen": "https://example.com/images/sapiens.jpg",
+    "prestado": false
+  },
+  {
+    "id": 6,
+    "titulo": "Harry Potter y la Piedra Filosofal",
+    "autor": "J.K. Rowling",
+    "descripcion": "Un niño huérfano descubre que es un mago y comienza su formación en el Colegio Hogwarts de Magia y Hechicería",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/harry-potter-1.jpg",
+    "prestado": false
+  },
+  {
+    "id": 7,
+    "titulo": "El Amor en los Tiempos del Cólera",
+    "autor": "Gabriel García Márquez",
+    "descripcion": "Historia de un amor que perdura más de cincuenta años a pesar de las circunstancias y el paso del tiempo",
+    "categoria": "Romance",
+    "imagen": "https://example.com/images/amor-tiempos-colera.jpg",
+    "prestado": false
+  },
+  {
+    "id": 8,
+    "titulo": "Steve Jobs",
+    "autor": "Walter Isaacson",
+    "descripcion": "Biografía autorizada del cofundador de Apple, basada en más de cuarenta entrevistas con el propio Jobs",
+    "categoria": "Biografía",
+    "imagen": "https://example.com/images/steve-jobs-bio.jpg",
+    "prestado": false
+  },
+  {
+    "id": 9,
+    "titulo": "Fahrenheit 451",
+    "autor": "Ray Bradbury",
+    "descripcion": "Un futuro distópico donde los libros están prohibidos y los bomberos tienen la misión de quemarlos.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/fahrenheit-451.jpg",
+    "prestado": false
+  },
+  {
+    "id": 10,
+    "titulo": "Un Mundo Feliz",
+    "autor": "Aldous Huxley",
+    "descripcion": "Sociedad futurista condicionada genéticamente para mantener el orden y la felicidad superficial.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/un-mundo-feliz.jpg",
+    "prestado": false
+  },
+  {
+    "id": 11,
+    "titulo": "El Hobbit",
+    "autor": "J.R.R. Tolkien",
+    "descripcion": "Bilbo Bolsón emprende un viaje fantástico para recuperar un tesoro custodiado por el dragón Smaug.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/el-hobbit.jpg",
+    "prestado": false
+  },
+  {
+    "id": 12,
+    "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+    "autor": "J.R.R. Tolkien",
+    "descripcion": "Un grupo de héroes se une para destruir un anillo de poder único antes de que caiga en manos del mal.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/esdla-comunidad.jpg",
+    "prestado": false
+  },
+  {
+    "id": 13,
+    "titulo": "Orgullo y Prejuicio",
+    "autor": "Jane Austen",
+    "descripcion": "Clásico romance que explora las diferencias de clase y los malentendidos amorosos en la Inglaterra rural.",
+    "categoria": "Romance",
+    "imagen": "https://example.com/images/orgullo-y-prejuicio.jpg",
+    "prestado": false
+  },
+  {
+    "id": 14,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "descripcion": "Las aventuras de un hidalgo que pierde la cordura tras leer demasiados libros de caballería.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/don-quijote.jpg",
+    "prestado": false
+  },
+  {
+    "id": 15,
+    "titulo": "Rayuela",
+    "autor": "Julio Cortázar",
+    "descripcion": "Novela de estructura innovadora que se puede leer en múltiples secuencias de capítulos.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/rayuela.jpg",
+    "prestado": false
+  },
+  {
+    "id": 16,
+    "titulo": "Pedro Páramo",
+    "autor": "Juan Rulfo",
+    "descripcion": "Juan Preciado viaja a Comala en busca de su padre y encuentra un pueblo de fantasmas y recuerdos.",
+    "categoria": "Realismo Mágico",
+    "imagen": "https://example.com/images/pedro-paramo.jpg",
+    "prestado": false
+  },
+  {
+    "id": 17,
+    "titulo": "La Metamorfosis",
+    "autor": "Franz Kafka",
+    "descripcion": "Gregorio Samsa se despierta una mañana transformado en un gigantesco insecto.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/la-metamorfosis.jpg",
+    "prestado": false
+  },
+  {
+    "id": 18,
+    "titulo": "El Nombre de la Rosa",
+    "autor": "Umberto Eco",
+    "descripcion": "Misterio y asesinatos en una abadía medieval en el siglo XIV resueltos por un fraile franciscano.",
+    "categoria": "Misterio",
+    "imagen": "https://example.com/images/el-nombre-de-la-rosa.jpg",
+    "prestado": false
+  },
+  {
+    "id": 19,
+    "titulo": "Ensayo sobre la Ceguera",
+    "autor": "José Saramago",
+    "descripcion": "Una epidemia repentina de ceguera blanca devasta la estructura social de una ciudad entera.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/ensayo-sobre-la-ceguera.jpg",
+    "prestado": false
+  },
+  {
+    "id": 20,
+    "titulo": "Cien Años de Soledad II",
+    "autor": "Autor Genérico",
+    "descripcion": "Volumen complementario hipotético para pruebas de la biblioteca digital.",
+    "categoria": "Ensayo",
+    "imagen": "https://example.com/images/libro-20.jpg",
+    "prestado": false
+  },
+  {
+    "id": 21,
+    "titulo": "El Aleph",
+    "autor": "Jorge Luis Borges",
+    "descripcion": "Antología de cuentos que explora laberintos, la infinitud y la memoria humana.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/el-aleph.jpg",
+    "prestado": false
+  },
+  {
+    "id": 22,
+    "titulo": "Ficciones",
+    "autor": "Jorge Luis Borges",
+    "descripcion": "Colección de relatos cortos llena de enigmas filosóficos y juegos literarios.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/ficciones.jpg",
+    "prestado": false
+  },
+  {
+    "id": 23,
+    "titulo": "La Sombra del Viento",
+    "autor": "Carlos Ruiz Zafón",
+    "descripcion": "Un joven descubre un libro maldito en el Cementerio de los Libros Olvidados de Barcelona.",
+    "categoria": "Misterio",
+    "imagen": "https://example.com/images/la-sombra-del-viento.jpg",
+    "prestado": false
+  },
+  {
+    "id": 24,
+    "titulo": "El Código Da Vinci",
+    "autor": "Dan Brown",
+    "descripcion": "Un simbólogo investiga un asesinato en el Louvre que revela un misterio religioso histórico.",
+    "categoria": "Misterio",
+    "imagen": "https://example.com/images/el-codigo-da-vinci.jpg",
+    "prestado": false
+  },
+  {
+    "id": 25,
+    "titulo": "Ángeles y Demonios",
+    "autor": "Dan Brown",
+    "descripcion": "Una conspiración secreta amenazada por la antimateria en el Vaticano.",
+    "categoria": "Misterio",
+    "imagen": "https://example.com/images/angeles-y-demonios.jpg",
+    "prestado": false
+  },
+  {
+    "id": 26,
+    "titulo": "Los Juegos del Hambre",
+    "autor": "Suzanne Collins",
+    "descripcion": "En un futuro distópico, jóvenes luchan a muerte en una transmisión televisada por el Capitolio.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/juegos-del-hambre.jpg",
+    "prestado": false
+  },
+  {
+    "id": 27,
+    "titulo": "En Las Montañas de la Locura",
+    "autor": "H.P. Lovecraft",
+    "descripcion": "Una expedición antártica descubre ruinas antiguas de una civilización alienígena pretérita.",
+    "categoria": "Terror",
+    "imagen": "https://example.com/images/montanas-de-la-locura.jpg",
+    "prestado": false
+  },
+  {
+    "id": 28,
+    "titulo": "Drácula",
+    "autor": "Bram Stoker",
+    "descripcion": "Clásico de la literatura gótica que narra la historia del sanguinario conde de Transilvania.",
+    "categoria": "Terror",
+    "imagen": "https://example.com/images/dracula.jpg",
+    "prestado": false
+  },
+  {
+    "id": 29,
+    "titulo": "Frankenstein",
+    "autor": "Mary Shelley",
+    "descripcion": "Un científico obsesionado crea vida humana artificial con consecuencias trágicas.",
+    "categoria": "Terror",
+    "imagen": "https://example.com/images/frankenstein.jpg",
+    "prestado": false
+  },
+  {
+    "id": 30,
+    "titulo": "El Resplandor",
+    "autor": "Stephen King",
+    "descripcion": "Un escritor aislado en un hotel de montaña cae presa de fuerzas sobrenaturales.",
+    "categoria": "Terror",
+    "imagen": "https://example.com/images/el-resplandor.jpg",
+    "prestado": false
+  },
+  {
+    "id": 31,
+    "titulo": "It",
+    "autor": "Stephen King",
+    "descripcion": "Un grupo de niños combate a un monstruo milenario que adopta la forma de un payaso.",
+    "categoria": "Terror",
+    "imagen": "https://example.com/images/it.jpg",
+    "prestado": false
+  },
+  {
+    "id": 32,
+    "titulo": "Dune",
+    "autor": "Frank Herbert",
+    "descripcion": "Estrategias políticas y religión en el planeta desértico Arrakis por el control de la especia.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/dune.jpg",
+    "prestado": false
+  },
+  {
+    "id": 33,
+    "titulo": "Fundación",
+    "autor": "Isaac Asimov",
+    "descripcion": "La psicohistoria predice la caída del Imperio Galáctico y busca acortar la era de oscuridad.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/fundacion.jpg",
+    "prestado": false
+  },
+  {
+    "id": 34,
+    "titulo": "Yo, Robot",
+    "autor": "Isaac Asimov",
+    "descripcion": "Relatos cruzados que exploran las tres leyes de la robótica y el comportamiento sintético.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/yo-robot.jpg",
+    "prestado": false
+  },
+  {
+    "id": 35,
+    "titulo": "Crónicas Marcianas",
+    "autor": "Ray Bradbury",
+    "descripcion": "Serie de relatos que narran la colonización humana del planeta Marte.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/cronicas-marcianas.jpg",
+    "prestado": false
+  },
+  {
+    "id": 36,
+    "titulo": "El Retrato de Dorian Gray",
+    "autor": "Oscar Wilde",
+    "descripcion": "Un joven permanece eternamente hermoso mientras su retrato oculta sus pecados y envejecimiento.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/dorian-gray.jpg",
+    "prestado": false
+  },
+  {
+    "id": 37,
+    "titulo": "Los Miserables",
+    "autor": "Victor Hugo",
+    "descripcion": "Redención, justicia y la lucha de clases en la Francia del siglo XIX.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/los-miserables.jpg",
+    "prestado": false
+  },
+  {
+    "id": 38,
+    "titulo": "El Conde de Montecristo",
+    "autor": "Alexandre Dumas",
+    "descripcion": "Edmond Dantès busca venganza tras ser encarcelado injustamente por años en el Castillo de If.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/el-conde-de-montecristo.jpg",
+    "prestado": false
+  },
+  {
+    "id": 39,
+    "titulo": "La Odisea",
+    "autor": "Homero",
+    "descripcion": "El épico viaje de regreso a casa de Odiseo a Ítaca tras la Guerra de Troya.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/la-odisea.jpg",
+    "prestado": false
+  },
+  {
+    "id": 40,
+    "titulo": "La Ilíada",
+    "autor": "Homero",
+    "descripcion": "Poema épico sobre la furia de Aquiles durante las últimas semanas de la Guerra de Troya.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/la-iliada.jpg",
+    "prestado": false
+  },
+  {
+    "id": 41,
+    "titulo": "Cien Sonetos de Amor",
+    "autor": "Pablo Neruda",
+    "descripcion": "Colección de poesía romántica dedicada a su esposa Matilde Urrutia.",
+    "categoria": "Poesía",
+    "imagen": "https://example.com/images/cien-sonetos.jpg",
+    "prestado": false
+  },
+  {
+    "id": 42,
+    "titulo": "Veinte Poemas de Amor y una Canción Desesperada",
+    "autor": "Pablo Neruda",
+    "descripcion": "Una de las obras poéticas más célebres del siglo XX de habla hispana.",
+    "categoria": "Poesía",
+    "imagen": "https://example.com/images/veinte-poemas.jpg",
+    "prestado": false
+  },
+  {
+    "id": 43,
+    "titulo": "La Casa de los Espíritus",
+    "autor": "Isabel Allende",
+    "descripcion": "Saga familiar que abarca cuatro generaciones en un país latinoamericano sin nombre.",
+    "categoria": "Realismo Mágico",
+    "imagen": "https://example.com/images/la-casa-de-los-espiritus.jpg",
+    "prestado": false
+  },
+  {
+    "id": 44,
+    "titulo": "Paula",
+    "autor": "Isabel Allende",
+    "descripcion": "Emotiva memoria escrita por la autora junto a la cama de su hija hospitalizada.",
+    "categoria": "Biografía",
+    "imagen": "https://example.com/images/paula.jpg",
+    "prestado": false
+  },
+  {
+    "id": 45,
+    "titulo": "El Arte de la Guerra",
+    "autor": "Sun Tzu",
+    "descripcion": "Tratado militar chino antiguo con lecciones aplicables a la estrategia y resolución de conflictos.",
+    "categoria": "Filosofía",
+    "imagen": "https://example.com/images/el-arte-de-la-guerra.jpg",
+    "prestado": false
+  },
+  {
+    "id": 46,
+    "titulo": "Así Habló Zaratustra",
+    "autor": "Friedrich Nietzsche",
+    "descripcion": "Obra filosófica centrada en los conceptos del superhombre y el eterno retorno.",
+    "categoria": "Filosofía",
+    "imagen": "https://example.com/images/zaratustra.jpg",
+    "prestado": false
+  },
+  {
+    "id": 47,
+    "titulo": "Meditaciones",
+    "autor": "Marco Aurelio",
+    "descripcion": "Reflexiones personales del emperador romano sobre la filosofía estoica.",
+    "categoria": "Filosofía",
+    "imagen": "https://example.com/images/meditaciones.jpg",
+    "prestado": false
+  },
+  {
+    "id": 48,
+    "titulo": "El Poder del Ahora",
+    "autor": "Eckhart Tolle",
+    "descripcion": "Guía espiritual para vivir en el presente y liberarse de la mente analítica.",
+    "categoria": "Autoayuda",
+    "imagen": "https://example.com/images/el-poder-del-ahora.jpg",
+    "prestado": false
+  },
+  {
+    "id": 49,
+    "titulo": "Hábitos Atómicos",
+    "autor": "James Clear",
+    "descripcion": "Marco de trabajo práctico para cambiar pequeños hábitos diarios y obtener grandes resultados.",
+    "categoria": "Autoayuda",
+    "imagen": "https://example.com/images/habitos-atomicos.jpg",
+    "prestado": false
+  },
+  {
+    "id": 50,
+    "titulo": "Padre Rico, Padre Pobre",
+    "autor": "Robert Kiyosaki",
+    "descripcion": "Enseña educación financiera a través de la comparación entre dos figuras paternas.",
+    "categoria": "Finanzas",
+    "imagen": "https://example.com/images/padre-rico.jpg",
+    "prestado": false
+  },
+  {
+    "id": 51,
+    "titulo": "Pensar Rápido, Pensar Despacio",
+    "autor": "Daniel Kahneman",
+    "descripcion": "Explicación de los dos sistemas de pensamiento que dirigen nuestras elecciones y juicios.",
+    "categoria": "Psicología",
+    "imagen": "https://example.com/images/pensar-rapido.jpg",
+    "prestado": false
+  },
+  {
+    "id": 52,
+    "titulo": "El Hombre en Busca de Sentido",
+    "autor": "Viktor Frankl",
+    "descripcion": "Un psiquiatra relata sus experiencias en los campos de concentración y la logoterapia.",
+    "categoria": "Psicología",
+    "imagen": "https://example.com/images/busca-de-sentido.jpg",
+    "prestado": false
+  },
+  {
+    "id": 53,
+    "titulo": "El Alquimista",
+    "autor": "Paulo Coelho",
+    "descripcion": "Un pastor andaluz viaja hacia las pirámides de Egipto en busca de su leyenda personal.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/el-alquimista.jpg",
+    "prestado": false
+  },
+  {
+    "id": 54,
+    "titulo": "Cosmos",
+    "autor": "Carl Sagan",
+    "descripcion": "Divulgación científica sobre la evolución del universo, la ciencia y la humanidad.",
+    "categoria": "Ciencia",
+    "imagen": "https://example.com/images/cosmos.jpg",
+    "prestado": false
+  },
+  {
+    "id": 55,
+    "titulo": "Astrofísica para Personas con Prisa",
+    "autor": "Neil deGrasse Tyson",
+    "descripcion": "Resumen accesible sobre los grandes conceptos del universo.",
+    "categoria": "Ciencia",
+    "imagen": "https://example.com/images/astrofisica.jpg",
+    "prestado": false
+  },
+  {
+    "id": 56,
+    "titulo": "Breve Historia del Tiempo",
+    "autor": "Stephen Hawking",
+    "descripcion": "Exploración de la cosmología, agujeros negros y la naturaleza del espacio-tiempo.",
+    "categoria": "Ciencia",
+    "imagen": "https://example.com/images/breve-historia-del-tiempo.jpg",
+    "prestado": false
+  },
+  {
+    "id": 57,
+    "titulo": "Guerra y Paz",
+    "autor": "León Tolstói",
+    "descripcion": "Narra la invasión napoleónica de Rusia a través de cinco familias aristocráticas.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/guerra-y-paz.jpg",
+    "prestado": false
+  },
+  {
+    "id": 58,
+    "titulo": "Ana Karenina",
+    "autor": "León Tolstói",
+    "descripcion": "Tragedia romántica que explora el amor prohibido y la alta sociedad rusa.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/ana-karenina.jpg",
+    "prestado": false
+  },
+  {
+    "id": 59,
+    "titulo": "Los Hermanos Karamázov",
+    "autor": "Fiódor Dostoyevski",
+    "descripcion": "Novela filosófica sobre la fe, el libre albedrío y el patricidio.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/hermanos-karamazov.jpg",
+    "prestado": false
+  },
+  {
+    "id": 60,
+    "titulo": "Moby Dick",
+    "autor": "Herman Melville",
+    "descripcion": "La obsesiva búsqueda del capitán Ahab por la gran ballena blanca.",
+    "categoria": "Aventura",
+    "imagen": "https://example.com/images/moby-dick.jpg",
+    "prestado": false
+  },
+  {
+    "id": 61,
+    "titulo": "La Isla del Tesoro",
+    "autor": "Robert Louis Stevenson",
+    "descripcion": "Aventuras de piratas, mapas del tesoro y el temible Long John Silver.",
+    "categoria": "Aventura",
+    "imagen": "https://example.com/images/isla-del-tesoro.jpg",
+    "prestado": false
+  },
+  {
+    "id": 62,
+    "titulo": "Las Aventuras de Tom Sawyer",
+    "autor": "Mark Twain",
+    "descripcion": "Un joven travieso crece a orillas del río Misisipi en el siglo XIX.",
+    "categoria": "Aventura",
+    "imagen": "https://example.com/images/tom-sawyer.jpg",
+    "prestado": false
+  },
+  {
+    "id": 63,
+    "titulo": "El Gran Gatsby",
+    "autor": "F. Scott Fitzgerald",
+    "descripcion": "El sueño americano y la decadencia social en los locos años veinte en Nueva York.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/el-gran-gatsby.jpg",
+    "prestado": false
+  },
+  {
+    "id": 64,
+    "titulo": "El Guardián entre el Centeno",
+    "autor": "J.D. Salinger",
+    "descripcion": "Holden Caulfield relata sus experiencias y críticas sobre la alienación juvenil.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/guardian-centeno.jpg",
+    "prestado": false
+  },
+  {
+    "id": 65,
+    "titulo": "Matar a un Ruiseñor",
+    "autor": "Harper Lee",
+    "descripcion": "Justicia racial e inocencia contadas por la joven Scout en el sur de Estados Unidos.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/matar-un-ruisenor.jpg",
+    "prestado": false
+  },
+  {
+    "id": 66,
+    "titulo": "El Viejo y el Mar",
+    "autor": "Ernest Hemingway",
+    "descripcion": "Un anciano pescador cubano se enfrenta a un pez espada gigante en el Golfo.",
+    "categoria": "Clásico",
+    "imagen": "https://example.com/images/el-viejo-y-el-mar.jpg",
+    "prestado": false
+  },
+  {
+    "id": 67,
+    "titulo": "Por Quién Doblan las Campanas",
+    "autor": "Ernest Hemingway",
+    "descripcion": "Un voluntario estadounidense lucha en una unidad guerrillera en la Guerra Civil Española.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/campanas.jpg",
+    "prestado": false
+  },
+  {
+    "id": 68,
+    "titulo": "La Nausea",
+    "autor": "Jean-Paul Sartre",
+    "descripcion": "Novela existencialista sobre un historiador abrumado por la existencia física.",
+    "categoria": "Filosofía",
+    "imagen": "https://example.com/images/la-nausea.jpg",
+    "prestado": false
+  },
+  {
+    "id": 69,
+    "titulo": "El Extranjero",
+    "autor": "Albert Camus",
+    "descripcion": "Meursault experimenta la indiferencia del mundo tras cometer un crimen en Argelia.",
+    "categoria": "Filosofía",
+    "imagen": "https://example.com/images/el-extranjero.jpg",
+    "prestado": false
+  },
+  {
+    "id": 70,
+    "titulo": "La Peste",
+    "autor": "Albert Camus",
+    "descripcion": "Una epidemia devasta la ciudad de Orán ofreciendo una alegoría sobre la condición humana.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/la-peste.jpg",
+    "prestado": false
+  },
+  {
+    "id": 71,
+    "titulo": "Cuentos Completos I",
+    "autor": "Edgar Allan Poe",
+    "descripcion": "Historias macabras y policiales que sentaron las bases del género de terror moderno.",
+    "categoria": "Terror",
+    "imagen": "https://example.com/images/poe-cuentos.jpg",
+    "prestado": false
+  },
+  {
+    "id": 72,
+    "titulo": "Estudio en Escarlata",
+    "autor": "Arthur Conan Doyle",
+    "descripcion": "La primera novela en la que aparece el legendario detective Sherlock Holmes.",
+    "categoria": "Misterio",
+    "imagen": "https://example.com/images/estudio-en-escarlata.jpg",
+    "prestado": false
+  },
+  {
+    "id": 73,
+    "titulo": "El Sabueso de los Baskerville",
+    "autor": "Arthur Conan Doyle",
+    "descripcion": "Sherlock Holmes investiga la maldición de una bestia demoníaca en los páramos.",
+    "categoria": "Misterio",
+    "imagen": "https://example.com/images/sabueso-baskerville.jpg",
+    "prestado": false
+  },
+  {
+    "id": 74,
+    "titulo": "Diez Negritos",
+    "autor": "Agatha Christie",
+    "descripcion": "Diez personas atrapadas en una isla son eliminadas una a una según una canción infantil.",
+    "categoria": "Misterio",
+    "imagen": "https://example.com/images/diez-negritos.jpg",
+    "prestado": false
+  },
+  {
+    "id": 75,
+    "titulo": "Asesinato en el Orient Express",
+    "autor": "Agatha Christie",
+    "descripcion": "Hercule Poirot debe resolver un crimen cometido a bordo de un tren varado en la nieve.",
+    "categoria": "Misterio",
+    "imagen": "https://example.com/images/orient-express.jpg",
+    "prestado": false
+  },
+  {
+    "id": 76,
+    "titulo": "Las Crónicas de Narnia: El León, la Bruja y el Armario",
+    "autor": "C.S. Lewis",
+    "descripcion": "Cuatro hermanos descubren un mundo mágico sumergido en un invierno eterno.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/narnia.jpg",
+    "prestado": false
+  },
+  {
+    "id": 77,
+    "titulo": "La Historia Interminable",
+    "autor": "Michael Ende",
+    "descripcion": "Bastián lee un libro fantástico y descubre que él es parte fundamental para salvar Fantasía.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/historia-interminable.jpg",
+    "prestado": false
+  },
+  {
+    "id": 78,
+    "titulo": "Momo",
+    "autor": "Michael Ende",
+    "descripcion": "Una niña con un gran don de escucha combate a los Hombres Grises que roban el tiempo.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/momo.jpg",
+    "prestado": false
+  },
+  {
+    "id": 79,
+    "titulo": "El Silmarillion",
+    "autor": "J.R.R. Tolkien",
+    "descripcion": "Mitolología e historia antigua de la Creación de la Tierra Media.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/silmarillion.jpg",
+    "prestado": false
+  },
+  {
+    "id": 80,
+    "titulo": "El Nombre del Viento",
+    "autor": "Patrick Rothfuss",
+    "descripcion": "Kvothe narra la historia de su vida desde niño hasta convertirse en un mago legendario.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/nombre-del-viento.jpg",
+    "prestado": false
+  },
+  {
+    "id": 81,
+    "titulo": "Juego de Tronos",
+    "autor": "George R.R. Martin",
+    "descripcion": "Casas nobles luchan por el trono de hierro en un continente amenazado por el invierno.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/juego-de-tronos.jpg",
+    "prestado": false
+  },
+  {
+    "id": 82,
+    "titulo": "Choque de Reyes",
+    "autor": "George R.R. Martin",
+    "descripcion": "Cinco reyes se disputan la corona en una guerra devastadora en Poniente.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/choque-de-reyes.jpg",
+    "prestado": false
+  },
+  {
+    "id": 83,
+    "titulo": "Tormenta de Espadas",
+    "autor": "George R.R. Martin",
+    "descripcion": "Tercera entrega épica llena de traición y giros destructivos en la guerra.",
+    "categoria": "Fantasía",
+    "imagen": "https://example.com/images/tormenta-de-espadas.jpg",
+    "prestado": false
+  },
+  {
+    "id": 84,
+    "titulo": "Neuromante",
+    "autor": "William Gibson",
+    "descripcion": "Novela pilar del género cyberpunk sobre ciberespacio y hackers en una sociedad futurista.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/neuromante.jpg",
+    "prestado": false
+  },
+  {
+    "id": 85,
+    "titulo": "¿Sueñan los Androides con Ovejas Eléctricas?",
+    "autor": "Philip K. Dick",
+    "descripcion": "Un cazador de recompensas busca retirar androides rebeldes indistinguibles de humanos.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/suenan-los-androides.jpg",
+    "prestado": false
+  },
+  {
+    "id": 86,
+    "titulo": "Ubik",
+    "autor": "Philip K. Dick",
+    "descripcion": "Realidades en erosión y fenómenos psíquicos distorsionados en un futuro corporativo.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/ubik.jpg",
+    "prestado": false
+  },
+  {
+    "id": 87,
+    "titulo": "La Guía del Autoestopista Galáctico",
+    "autor": "Douglas Adams",
+    "descripcion": "Comedia de ciencia ficción sobre las absurdas aventuras de Arthur Dent en el espacio.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/autoestopista.jpg",
+    "prestado": false
+  },
+  {
+    "id": 88,
+    "titulo": "Hyperion",
+    "autor": "Dan Simmons",
+    "descripcion": "Siete peregrinos viajan a las Tumbas del Tiempo custodiadas por el letal Alcaudón.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/hyperion.jpg",
+    "prestado": false
+  },
+  {
+    "id": 89,
+    "titulo": "El Problema de los Tres Cuerpos",
+    "autor": "Cixin Liu",
+    "descripcion": "El primer contacto de la humanidad con una civilización alienígena en crisis.",
+    "categoria": "Ciencia Ficción",
+    "imagen": "https://example.com/images/tres-cuerpos.jpg",
+    "prestado": false
+  },
+  {
+    "id": 90,
+    "titulo": "La Selva Enredada",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-90.jpg",
+    "prestado": false
+  },
+  {
+    "id": 91,
+    "titulo": "Sendas Olvidadas",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-91.jpg",
+    "prestado": false
+  },
+  {
+    "id": 92,
+    "titulo": "Horizonte Lejano",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-92.jpg",
+    "prestado": false
+  },
+  {
+    "id": 93,
+    "titulo": "Caminos Cruzados",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-93.jpg",
+    "prestado": false
+  },
+  {
+    "id": 94,
+    "titulo": "Sombras en el Valle",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-94.jpg",
+    "prestado": false
+  },
+  {
+    "id": 95,
+    "titulo": "Ecos del Pasado",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-95.jpg",
+    "prestado": false
+  },
+  {
+    "id": 96,
+    "titulo": "Mares Tranquilos",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-96.jpg",
+    "prestado": false
+  },
+  {
+    "id": 97,
+    "titulo": "Vientos de Cambio",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-97.jpg",
+    "prestado": false
+  },
+  {
+    "id": 98,
+    "titulo": "Luces de la Ciudad",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro ficticio utilizado para completar la prueba de volumen.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-98.jpg",
+    "prestado": false
+  },
+  {
+    "id": 99,
+    "titulo": "El Último Capítulo",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro noventa y nueve para pruebas de límites.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-99.jpg",
+    "prestado": false
+  },
+  {
+    "id": 100,
+    "titulo": "Límite de Capacidad",
+    "autor": "Autor Prueba",
+    "descripcion": "Libro número cien en la colección.",
+    "categoria": "Ficción",
+    "imagen": "https://example.com/images/prueba-100.jpg",
+    "prestado": false
+  }
+  
+]

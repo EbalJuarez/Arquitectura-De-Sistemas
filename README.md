@@ -48,5 +48,5 @@ Antes de ejecutar el workflow, configura estos GitHub Actions secrets en
 ### Evidencia del deployment
 
 - **URL de CloudFront:** `https://d124oe3b3rex7h.cloudfront.net`
-- **Captura de la ejecución exitosa del pipeline:** `<AGREGAR_CAPTURA_DEL_PIPELINE>`
-- **Captura de la página funcionando:** `<AGREGAR_CAPTURA_DE_LA_PAGINA>`
+- **Captura de la ejecución exitosa del pipeline:** ![Pipeline](pipeline_run.png)
+- **Captura de la página funcionando:** ![Página funcionando](pagina.png)

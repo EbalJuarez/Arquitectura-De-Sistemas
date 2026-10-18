@@ -162,14 +162,15 @@ Después abre:
 
 ### Validación compartida en ambas aplicaciones
 
-![Validación compartida](docs/screenshots/validation.png)
+![Validación compartida](docs/screenshots/validation-web.png)
 
 ## Convención de commits
 
 Los commits siguen la especificación [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/), por ejemplo:
 
-- `chore: initialize turborepo monorepo with npm workspaces`
-- `feat(shared): add shared types and task utilities library`
-- `feat(api): add express backend consuming shared library`
-- `feat(web): add react frontend consuming api and shared library`
-- `docs: document monorepo structure and commands`
+- `chore: inicializar monorepo con Turborepo y npm workspaces`
+- `feat(shared): agregar librería compartida de tipos y utilidades`
+- `feat(api): agregar backend con Express que usa la librería compartida`
+- `feat(web): agregar frontend con React que consume la API y la librería compartida`
+- `docs: documentar estructura del monorepo, herramienta y comandos`
+- `docs: agregar capturas de pantalla de ambas aplicaciones`

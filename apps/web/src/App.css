@@ -1,0 +1,140 @@
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+code {
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin: 24px 0;
+}
+
+.summary div {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.06);
+}
+
+.summary strong {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.summary span {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.task-form {
+  display: flex;
+  gap: 8px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border-left: 4px solid #9ca3af;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.task--in_progress {
+  border-left-color: #f59e0b;
+}
+
+.task--done {
+  border-left-color: #10b981;
+}
+
+.task--done .task-title {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.task-title {
+  display: block;
+  font-weight: 600;
+}
+
+.task time {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+footer {
+  margin-top: 32px;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+@media (max-width: 560px) {
+  .summary {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

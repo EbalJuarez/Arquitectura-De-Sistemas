@@ -1,0 +1,31 @@
+{
+  "name": "arquitectura-de-sistemas",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@11.19.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "start": "turbo run start",
+    "dev:web": "turbo run dev --filter=@hw05/web",
+    "dev:api": "turbo run dev --filter=@hw05/api",
+    "build:web": "turbo run build --filter=@hw05/web",
+    "build:api": "turbo run build --filter=@hw05/api",
+    "start:web": "turbo run start --filter=@hw05/web",
+    "start:api": "turbo run start --filter=@hw05/api",
+    "test:web": "turbo run test --filter=@hw05/web",
+    "test:api": "turbo run test --filter=@hw05/api",
+    "test:shared": "turbo run test --filter=@hw05/shared",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "turbo": "^2.11.9",
+    "typescript": "^7.0.2"
+  }
+}
